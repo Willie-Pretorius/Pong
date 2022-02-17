@@ -13,7 +13,7 @@ class Scoreboard(Turtle):
 
     def show_current_score(self):
         self.clear()
-        self.write(f"{self.p2_score}    {self.p1_score}", align="center", font=FONT)
+        self.write(f"{self.p1_score}    {self.p2_score}", align="center", font=FONT)
 
     def player1_scored(self):
         self.p1_score += 1
